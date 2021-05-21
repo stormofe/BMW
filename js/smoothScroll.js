@@ -14,7 +14,7 @@ smoothScrollElems.forEach(link => {
 */
 const SPEED = 0.2;
 const scrolled = event => {
-	event.preventDefault();
+	//event.preventDefault();
 
 	const target = event.target;
 
